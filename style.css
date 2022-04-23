@@ -15,6 +15,7 @@ body{
 	text-align: center;
 	text-transform: uppercase;
 	margin: 10px 0;
+	
 }
 input{
 	width: 90%;
@@ -43,7 +44,7 @@ width: 20%
 	content: 'Total: ';
 }
 button{
-	width: 100%;
+	width: 90%;
     height: 30px;
     border: none;
     cursor: pointer;
@@ -59,9 +60,11 @@ button:hover{
 .btnSearch{
 	display: flex;
 	justify-content: space-between;
+	margin-right: 9%;
 }
 .btnSearch button{
 width: 45%;
+margin-left: 0%;
 }
 table{
 	width:100%;
