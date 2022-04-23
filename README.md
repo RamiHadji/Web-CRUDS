@@ -10,4 +10,4 @@
  Permanently save products to local storage  
  Able to calculate product tax and advertising expenses and find the final price  
  The data will not be added unless it is correct 
-https://ramihadji.github.io/Web-Development/index.html
+https://ramihadji.github.io/Web-CRUDS/index.html
