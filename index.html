@@ -7,6 +7,7 @@
     
 </head>
 <body>
+
    <div class="crud">
     <div class="head">
     
@@ -21,10 +22,10 @@
     <input type="text" id="title" placeholder="text">
 
   <div class="price">
-     <input type="number" id="price" placeholder="price">
-     <input type="number" id="taxes" placeholder="taxes">
-     <input type="number" id="ads" placeholder="ads">
-     <input type="number" id="discount" placeholder="discount">
+     <input onkeyup="getTotal()" type="number" id="price" placeholder="price">
+     <input onkeyup="getTotal()" type="number" id="taxes" placeholder="taxes">
+     <input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+     <input onkeyup="getTotal()" type="number" id="discount" placeholder="discount">
      <small id="total">3232 </small>
    </div>
 <input  type="number" id="count" placeholder="count">
@@ -108,6 +109,6 @@
 
    </div>
    </div>
-    <script src=></script>
+    <script src="main.js"></script>
 </body>
 </html>
